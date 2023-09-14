@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Bases -->
+
+  <HeadTypeDef ParentName="AverageBase" Name="Kobold_HeadtypeBase" Abstract="True">
+  </HeadTypeDef>
+
+
+  <HeadTypeDef ParentName="Kobold_HeadtypeBase">
+    <defName>Kobold_Average_Normal</defName>
+	<gender>None</gender>
+    <graphicPath>Kobold\Heads\Kobold_Average_Normal</graphicPath>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="Kobold_HeadtypeBase">
+    <defName>Kobold_Average_Wide</defName>
+	<gender>None</gender>
+    <graphicPath>Kobold\Heads\Kobold_Average_Wide</graphicPath>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="Kobold_HeadtypeBase">
+    <defName>Kobold_Narrow_Normal</defName>
+	<gender>None</gender>
+    <graphicPath>Kobold\Heads\Kobold_Narrow_Normal</graphicPath>
+  </HeadTypeDef>
+</Defs>
